@@ -8,7 +8,7 @@ module.exports = defineConfig({
   // 配置打包后静态资源路径,解决白屏问题
   publicPath: './',
   devServer: {
-    open: true,
+    open: false,
     port: 8080,
     host: 'localhost',
     https: false
